@@ -142,6 +142,23 @@ body {
     z-index: 1;
   }
 
+  .card-container
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-container .card
+  {
+    width: 300px;
+    height: 400px;  
+  }
+  .card img
+  {
+    height: 200px;
+  }
+
 @media screen and (max-width:600px)
 {
   .hero
@@ -233,16 +250,17 @@ body {
     border-radius: 5px;
     padding: 15px;
     font-style: arial, sans-serif;
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
     font-weight: bold;
+    text-decoration: none;
   }
   .btn-secondary:hover
   {
     background: #f39c12;
     transition: ease-in 0.3s;
     color: white;
-    
+    text-decoration: underline;
   }
 
    body {
